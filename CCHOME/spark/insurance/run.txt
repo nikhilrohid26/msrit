@@ -1,0 +1,5 @@
+spark-submit insurance.py input-insurance.csv construction county 
+
+cat construction/*
+
+cat county/*

@@ -1,0 +1,9 @@
+javac -d . *.java
+
+echo Main-Class: weather.driver > Manifest.txt
+
+jar cfm weather.jar Manifest.txt weather/*.class
+
+hadoop jar weather.jar input.txt output
+
+cat output/*
