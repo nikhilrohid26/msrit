@@ -1,9 +1,0 @@
-javac -d . *.java
-
-echo Main-Class: oddeven.driver > Manifest.txt
-
-jar cfm oddeven.jar Manifest.txt oddeven/*.class
-
-hadoop jar oddeven.jar input.txt output
-
-cat output/*

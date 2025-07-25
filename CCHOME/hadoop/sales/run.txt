@@ -1,9 +1,0 @@
-javac -d . *.java
-
-echo Main-Class: sales.driver > Manifest.txt
-
-jar cfm sales.jar Manifest.txt sales/*.class
-
-hadoop jar sales.jar sales.txt output
-
-cat output/*

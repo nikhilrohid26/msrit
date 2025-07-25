@@ -1,9 +1,0 @@
-javac -d . *.java
-
-echo Main-Class: employee.driver > Manifest.txt
-
-jar cfm employee.jar Manifest.txt employee/*.class
-
-hadoop jar employee.jar input.csv output
-
-cat output/*

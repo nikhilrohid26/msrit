@@ -1,5 +1,0 @@
-spark-submit sales.py input-sales.csv products frequency
-
-cat products/*
-
-cat frequency/*

@@ -1,9 +1,0 @@
-javac -d . *.java
-
-echo Main-Class: insurance.driver > Manifest.txt
-
-jar cfm insurance.jar Manifest.txt insurance/*.class
-
-hadoop jar insurance.jar insurance_data.csv output
-
-cat output/*

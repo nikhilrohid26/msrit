@@ -1,9 +1,0 @@
-javac -d . *.java
-
-echo Main-Class: earthquake.driver > Manifest.txt
-
-jar cfm earthquake.jar Manifest.txt earthquake/*.class
-
-hadoop jar earthquake.jar input.csv output
-
-cat output/*

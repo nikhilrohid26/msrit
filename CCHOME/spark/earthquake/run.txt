@@ -1,9 +1,0 @@
-spark-submit earthquake.py earthquake-input.csv magnitude depth latitude longitude
-
-cat magnitude/*
-
-cat depth/*
-
-cat latitude/*
-
-cat longitude/*
